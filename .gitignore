@@ -1,0 +1,7 @@
+# Do not commit observation records or personal exports.
+lesson-observation*.json
+*.xlsx
+*.xls
+*.csv
+*.tsv
+.DS_Store

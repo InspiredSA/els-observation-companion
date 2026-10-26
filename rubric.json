@@ -1,0 +1,448 @@
+{
+  "title": "ELS Observation Companion",
+  "subtitle": "Evidence-led feedback for Early Learning heads, teachers and peer observers",
+  "version": "Draft for internal calibration · 26 October 2026",
+  "purpose": "A developmental guide to help observers select the existing five ratings against the seven standards. The descriptors are proposed ELS interpretations, not validated official thresholds or a replacement for school policy or professional judgement. SuccessFactors remains the official record.",
+  "ratingOptions": [
+    {
+      "value": 0,
+      "label": "Not Observed"
+    },
+    {
+      "value": 1,
+      "label": "Critical Concern"
+    },
+    {
+      "value": 2,
+      "label": "Has Areas to Develop"
+    },
+    {
+      "value": 3,
+      "label": "Performing Well"
+    },
+    {
+      "value": 4,
+      "label": "Outstanding"
+    }
+  ],
+  "ratingGuidance": [
+    "Observe naturally occurring play, care routines, transitions and adult-guided experiences. A formal whole-group lesson is not required.",
+    "For each standard, record what the adult did or said and how children responded. Separate direct observation, supplementary evidence and interpretation.",
+    "Choose the best-supported rating for the standard, not a tick-count across the look-fors. Record mixed evidence, relevant context and the reason for the judgement.",
+    "Use 0 - Not Observed when evidence is insufficient or no suitable opportunity arose. It is not zero performance, and it must not be included in an average. Do not use it to hide an observed concern.",
+    "Level 2 identifies specific inconsistent or partially effective practice. Level 1 requires evidence of a serious failure in the relevant standard, not simply an area for improvement or a child finding something difficult.",
+    "Level 3 is secure, effective practice. Level 4 requires convincing evidence of the additional precision, inclusion, agency or impact described, not merely the absence of a development point.",
+    "Consider developmental starting points, language, disability, communication preferences and context. Judge the adult's opportunities and support, not uniform child attainment or progress at the same pace.",
+    "Do not equate quality with expensive decor, silence, worksheets, early formal academics, English-only fluency or identical finished products.",
+    "A short observation cannot establish progress over time or all aspects of professionalism. Identify what needs follow-up; do not invent evidence or force a judgement.",
+    "The tool does not calculate an overall score. A serious concern must not be averaged away by stronger practice elsewhere.",
+    "Follow the school's safeguarding procedures immediately where a safety or welfare concern arises. Recording a rating is not a substitute for reporting or acting.",
+    "Use feedback to agree an evidenced strength, a manageable next step, appropriate support and a review date. Before consequential use, moderate judgements and consider evidence beyond one brief visit."
+  ],
+  "calibration": {
+    "title": "Before using the rubric across a team",
+    "steps": [
+      "Read a shared anonymised observation account and select ratings independently.",
+      "Compare the evidence supporting each judgement, not personal impressions of the teacher.",
+      "Discuss differences against the descriptors and identify where more evidence is needed.",
+      "Pilot the wording with heads and teachers, then agree any school-level refinements before formal implementation."
+    ]
+  },
+  "recordingPrompts": {
+    "evidence": "What did the adult do or say? How did children respond? Include the context and distinguish observed from reported evidence.",
+    "strengths": "Which practice worked well, and what evidence shows its effect?",
+    "development": "What is the priority next step, what support is needed and how will improvement be recognised?",
+    "teacherReflection": "What was your intention? What helped, what surprised you and what would you change?",
+    "followUp": "What further evidence or agreed action is needed, who will support it and when will it be reviewed?"
+  },
+  "sources": [
+    {
+      "title": "User-supplied observation export: els data.xlsx",
+      "detail": "Export!L1:R1 supplies the exact seven standard titles; ratings in L2:R6 supply the existing five categories. No employee records are included in this tool."
+    },
+    {
+      "title": "Department of Basic Education (2015), The South African National Curriculum Framework for children from Birth to Four",
+      "url": "https://www.education.gov.za/Portals/0/Documents/curriculum%20docs/NCF%202018/NCF%20English%202018%20web.pdf",
+      "detail": "Background for flexible, holistic early learning within its birth-to-four scope. The 2018 URL contains the framework dated February 2015."
+    },
+    {
+      "title": "NAEYC, DAP: Observing, Documenting, and Assessing Children's Development and Learning",
+      "url": "https://www.naeyc.org/resources/position-statements/dap/assessing-development/",
+      "detail": "Background for ongoing, culturally and linguistically responsive observation that informs teaching. The proposed rubric is not endorsed or validated by NAEYC or DBE."
+    },
+    {
+      "title": "England: Department for Education, Development Matters (updated September 2023)",
+      "url": "https://www.gov.uk/government/publications/development-matters--2/development-matters",
+      "detail": "International cross-check for flexible planning, meaningful play, appropriate adult scaffolding and proportionate assessment. Non-statutory guidance for England, not an international teacher-rating scale."
+    },
+    {
+      "title": "Aotearoa New Zealand: Te Whāriki, assessment, planning and evaluation",
+      "url": "https://tewhariki.tahurangi.education.govt.nz/assessment-planning-and-evaluation/5637165598.p",
+      "detail": "International cross-check for noticing, responding and revisiting learning, child agency, family perspectives and evidence over time. Respect its bicultural context; these proposed ratings are not part of Te Whāriki."
+    },
+    {
+      "title": "United States: NAEYC, DAP teaching to enhance each child’s development and learning",
+      "url": "https://www.naeyc.org/resources/position-statements/dap/enhance-development",
+      "detail": "International cross-check for intentional teaching, choice, guided and self-directed play, inclusive access and culturally and linguistically responsive practice. NAEYC does not endorse this rubric."
+    }
+  ],
+  "exportCaveat": "The spreadsheet supports review and entry into SuccessFactors. It is not a verified automatic-import template. The supplied export has an apparent final-column heading error: AF1 repeats Standard Six: Areas of Development beside Standard Seven: Areas of Strength. Confirm the official mapping before any automated import.",
+  "scopeNotes": [
+    "Use the standard titles as authoritative headings; do not treat the sample appraisal narratives as calibrated exemplars.",
+    "Apply expectations within the observed adult's role and opportunity, including teaching assistants or caregivers where relevant. Do not penalise responsibilities they do not hold.",
+    "Collect only necessary information. Avoid child names and sensitive family or health details in routine observation notes; use the school's appropriate confidential processes where required."
+  ],
+  "standards": [
+    {
+      "id": 1,
+      "title": "Standard One: Sets high expectations and stretches and challenges every student",
+      "elsInterpretation": "Every child is seen as capable and offered worthwhile, achievable next steps through play, exploration and growing independence, with appropriate support.",
+      "lookFors": [
+        "Expectations reflect individual starting points, interests and developmental readiness.",
+        "Adult language, meaningful choices and responsibilities communicate confidence in children's capability.",
+        "Accessible spaces and materials enable participation rather than simply looking attractive.",
+        "Invitations, questions and problems extend thinking or skills without rushing formal academic learning."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "There was no suitable opportunity, or too little evidence, to judge the match between expectations, access and challenge. Record what was seen and what needs checking. This is not a low performance rating, and an attractive room alone is not enough evidence to judge the standard.",
+          "evidenceExample": "The observer sees prepared resources before children arrive, but cannot yet see how the adult uses them to support participation or challenge."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "Observed expectations substantially and repeatedly mismatch children's needs or capabilities, seriously restricting participation or learning. The adult dismisses children's attempts, prevents them from trying, or persists with overwhelming demands without appropriate support. Alternatively, despite clear evidence of children's capabilities, opportunities remain persistently and substantially below their needs, seriously restricting learning. Record the impact and distinguish adult practice from constraints outside their control.",
+          "evidenceExample": "Children repeatedly show that a task is inaccessible; the adult insists on identical outcomes, offers no workable support and dismisses their attempts."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "The adult encourages children and provides some suitable opportunities, but expectations, access or challenge are uneven. Some children receive useful support while others wait, repeat an already-secure task or have adults take over. Choices may be superficial or challenge may mean only more of the same. Identify which children or situations need a better entry point or extension.",
+          "evidenceExample": "A construction invitation engages several children, but those ready for a harder problem only receive more blocks while another child's building is completed by the adult."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "The adult communicates belief in children's capability and provides accessible, purposeful experiences matched to their starting points. Meaningful choices, appropriate responsibilities and playful challenges encourage children to attempt, persevere and think. Support enables participation without routinely taking over; children who are ready can explore a worthwhile next step. Different outcomes and ways of participating are welcomed.",
+          "evidenceExample": "Children build bridges for toy animals. The adult offers an accessible starting point to one child and invites another to test a longer span, allowing both to decide how to proceed."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Across the available evidence, the adult skilfully combines ambitious individual next steps, inclusive access and genuine agency. Challenge grows from children's ideas and emerging capabilities; children investigate alternatives, refine approaches or use skills in new ways. The adult anticipates barriers and widens opportunities for less-visible children as well as confident contributors. The judgement rests on sustained quality and effect, not one impressive activity.",
+          "evidenceExample": "As children test their bridges, the adult draws in different ideas and adjusts support so children choose new tests, revise designs and increasingly direct the investigation."
+        }
+      ],
+      "evidencePrompts": [
+        "What makes this a worthwhile next step for these children, rather than repetition or an unrealistic demand?",
+        "Who had meaningful choices and access, and who needed a different entry point or greater challenge?",
+        "What did children attempt, reconsider or discover in response?"
+      ],
+      "toddlerExample": "During filling and emptying, the adult offers reachable containers and a different-sized opening. Gestures, repeated attempts and requesting help can show challenge; spoken explanations are unnecessary.",
+      "preschoolExample": "Children build a bridge for toy animals, test its strength and choose changes, with different supports rather than an expectation of identical bridges."
+    },
+    {
+      "id": 2,
+      "title": "Standard Two: Uses responsive teaching which promotes excellent progress and outcomes",
+      "elsInterpretation": "The adult notices children's responses, adjusts teaching and checks whether the adjustment helps. Progress is considered from each child's starting point, with evidence over time where available.",
+      "lookFors": [
+        "The adult listens and observes actions, gestures and communication, not only confident spoken answers.",
+        "Pace, language, materials, grouping, support or challenge change in response to evidence.",
+        "Modelling, prompts, dialogue and feedback help children try, think and act rather than simply receive an answer.",
+        "The adult checks the effect of support and uses appropriate follow-up evidence to understand progress."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "There is insufficient evidence of how the adult responds to children's learning. Record what further interaction or follow-up evidence is needed. A short visit may show responsive teaching without establishing progress over time; state that limit rather than claiming long-term outcomes. Lack of opportunity is not evidence of poor practice.",
+          "evidenceExample": "A short visit captures children settling into an activity, but not enough adult-child interaction to judge how the adult adapts teaching."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "The adult repeatedly ignores clear evidence of confusion, inaccessibility or disengagement and continues an unsuitable approach, substantially limiting learning. Responses dismiss attempts, routinely take over or prevent further thinking. When relevant longer-term evidence is available, clear unmet needs are disregarded rather than acted upon. Record what was observed and its effect, without inferring failure from a child's difficulty alone.",
+          "evidenceExample": "Several children show they do not understand the instruction; the adult repeats it more forcefully without changing language, modelling or access, and prevents attempts at an alternative."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "The adult notices some responses and makes some useful changes, but checking and adaptation are inconsistent or delayed. They may rely mainly on confident speakers, provide generic praise or give help without checking its effect. Some children benefit while others remain unsure or insufficiently challenged. Feedback identifies a specific adjustment and how its effectiveness could be checked.",
+          "evidenceExample": "The adult notices difficulty and models the task, but moves on without checking whether the child can now attempt it or needs different support."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "The adult observes and listens to different children, then adjusts teaching in response. Appropriate modelling, prompts, gestures, dialogue and feedback help children try again or extend their thinking. The adult allows response time and checks whether the change helps, maintaining suitable challenge. Where follow-up evidence is available, it shows next steps informed by children's own starting points rather than uniform attainment.",
+          "evidenceExample": "After noticing a child struggle to stack pieces, the adult stabilises the base, models once and pauses; the next attempt informs whether support is maintained or reduced."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Responsive teaching is precise and sustained across the available evidence. The adult tests assumptions, notices less-visible responses and refines adjustments after checking their effect. Support is sensitively reduced or changed so children increasingly direct their thinking and action. Relevant evidence across occasions, where available, shows how teaching is refined to promote meaningful individual progress; a single visit alone cannot establish that longer-term impact.",
+          "evidenceExample": "An unexpected sorting rule prompts shared investigation. The adult checks different children's reasoning, offers a contrasting object and adjusts support again as children test and refine their ideas."
+        }
+      ],
+      "evidencePrompts": [
+        "What did the adult notice, what changed, and what happened for the child afterwards?",
+        "Whose understanding was checked through actions, gestures, language or attempted strategies?",
+        "What is evidenced in this visit, and what claim about progress needs evidence from another occasion?"
+      ],
+      "toddlerExample": "The adult responds to a child's difficulty with a stacking piece, changes the support and watches the next attempt before deciding what to do next.",
+      "preschoolExample": "Children sort using an unexpected rule; the adult asks them to show it, offers a contrasting object and adapts the next invitation rather than correcting them immediately."
+    },
+    {
+      "id": 3,
+      "title": "Standard Three: Subject and curriculum knowledge",
+      "elsInterpretation": "The adult uses accurate knowledge of early learning and the curriculum to make ideas accessible and offer appropriate next possibilities, rather than expecting identical milestones from every child.",
+      "lookFors": [
+        "Accurate language, explanations and demonstrations in meaningful play, routines and exploration.",
+        "Connections between individual children's existing understanding and accessible next possibilities.",
+        "Recognition of ideas expressed through home languages, movement, gesture and communication supports.",
+        "Materials, questions and scaffolds that deepen exploration without replacing children's thinking."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "The available evidence is too limited to judge subject and curriculum knowledge, accuracy or use of developmental progression. Record what was seen and what needs checking. Do not treat limited visibility as weak knowledge or expect children to demonstrate particular attainment during the visit.",
+          "evidenceExample": "A brief arrival interaction provides too little evidence of relevant explanations, demonstrations or curriculum decisions to judge the standard."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "Observed explanations, demonstrations or expectations contain significant inaccuracies or are markedly mismatched to children's ways of learning and communicating. The adult persists despite clear evidence of misunderstanding or exclusion, materially undermining participation or developing understanding. Identify the specific practice and impact. A minor factual slip, promptly corrected, or an unfamiliar approach is not in itself Critical Concern.",
+          "evidenceExample": "Across repeated shape comparisons, the adult insists rotated triangles are not triangles, rejects children's valid demonstrations and requires them to copy the false rule, materially undermining their developing understanding."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "Knowledge is broadly accurate, but connections, explanations or next steps are uneven. Opportunities to build on children's interests, understanding or communication are missed, and scaffolds sometimes simplify unnecessarily or move ahead too quickly. Children can participate, but exploration or understanding is not consistently extended. Identify the particular knowledge or application that needs strengthening.",
+          "evidenceExample": "The adult names full and empty accurately but repeats the labels after a child begins comparing amounts, missing an opportunity to explore more and less."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "The adult uses accurate knowledge to connect learning with children's play, experiences and current understanding. Language, materials and demonstrations make ideas accessible through appropriate communication routes. Scaffolds offer manageable challenge without prescribing identical outcomes. Children can investigate and express ideas, and their responses inform whether the adult clarifies, extends or steps back.",
+          "evidenceExample": "As children roll objects, the adult accurately describes movement, offers contrasting shapes and supports spoken or gestured predictions; children try ideas and notice differences."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Accurate knowledge is used with particularly perceptive responsiveness to emerging ideas, unexpected questions or misconceptions. Precise connections and varied representations deepen exploration while preserving children's agency and inclusive access. Observed responses show children developing, revising or using ideas in new ways. Distinction rests on the quality and effect of these interactions, not accelerated content or universal mastery.",
+          "evidenceExample": "A child's claim that heavy objects always sink prompts accessible comparisons; the adult supports predictions and revisiting explanations as children discover a heavy object that floats."
+        }
+      ],
+      "evidencePrompts": [
+        "What did the adult say, demonstrate or select, and how accurate and accessible was it?",
+        "What showed the child's current thinking, and how was it connected to an appropriate next possibility?",
+        "How did children respond through language, gesture, movement or communication support?"
+      ],
+      "toddlerExample": "A toddler fills and tips a container. The adult names actions, offers a second container and follows interest in comparing what each holds, without expecting counting or verbal explanations.",
+      "preschoolExample": "Children investigate ramps. The adult introduces accurate language about steepness and distance and helps compare attempts while keeping children's own questions central."
+    },
+    {
+      "id": 4,
+      "title": "Standard Four: Pedagogy and planning",
+      "elsInterpretation": "Purposeful, flexible experiences, routines and environments combine child-led exploration with appropriate adult support. Planning is judged through thoughtful decisions and practice, not paperwork alone.",
+      "lookFors": [
+        "A developmentally appropriate purpose evident in experiences, routines, interactions or relevant planning context.",
+        "Accessible spaces, materials and transitions that support participation, choice and exploration.",
+        "A responsive balance of child-led play and purposeful adult modelling, questioning or direct support.",
+        "Adaptation of pace, sequence, grouping or resources to children's responses and access needs."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "There is insufficient evidence to judge the purpose, organisation or responsiveness of pedagogy and planning. Record the limits of the sample and a relevant follow-up question. Do not equate an unseen written plan with absent planning or ineffective teaching; intentions may be evident through interactions and decisions.",
+          "evidenceExample": "Only the final moments of collection time were observed, with too little context to establish learning intentions, sequencing or pedagogical choices."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "Observed organisation or teaching creates substantial barriers to participation or learning. Expectations, resources or pacing are markedly inappropriate, and the adult continues despite clear distress, exclusion or inability to engage. Control replaces meaningful agency, or absent adult support leaves children unable to access the experience. Describe the barrier and impact; a different teaching style alone is not a concern.",
+          "evidenceExample": "Toddlers are kept in a prolonged adult-led task despite repeated distress and attempts to leave; no movement, alternative participation or responsive change is offered."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "Experiences have a recognisable purpose and some suitable opportunities for play, but organisation, sequencing or adult involvement is inconsistent. Resources, transitions or grouping create avoidable interruptions, or cues to adjust support and challenge are missed. Some engagement, choice or access is reduced. Specify the pedagogical decision to improve rather than assuming that more adult direction is needed.",
+          "evidenceExample": "Children begin a purposeful building challenge, but limited materials and a lengthy explanation lead some to disengage; the adult adjusts only after repeated cues."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "Purposeful experiences and routines are coherently organised, with accessible resources and appropriate pacing. The adult balances child-led exploration with timely modelling, questions or direct support, adapting sequence or participation options when children's responses warrant it. Children make choices, remain meaningfully involved and encounter manageable challenge. Planning is evident in thoughtful decisions and responsive practice.",
+          "evidenceExample": "During construction play, accessible materials support different approaches; the adult models a joining technique when requested, then steps back as children continue their own designs."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Purpose, environment and adult contribution work together with exceptional responsiveness. The adult anticipates access barriers and adapts sensitively to emerging interests or challenge without losing meaningful direction. Modelling, collaboration and independent exploration are finely judged. Children sustain or deepen involvement, shape the experience and access challenge through different routes; elaborate resources and polished displays are not required.",
+          "evidenceExample": "Children turn construction into bridge testing; the adult reorganises materials, offers optional stability demonstrations and supports varied roles, enabling children to refine their own designs."
+        }
+      ],
+      "evidencePrompts": [
+        "What purpose was evident, and how did resources, sequence and adult contribution support it?",
+        "Which children could choose, participate and access challenge, and what barriers were visible?",
+        "What prompted the adult to intervene, adapt or step back, and what changed for children?"
+      ],
+      "toddlerExample": "Reachable containers support filling play. The adult models when helpful and reduces crowding when toddlers signal frustration, allowing each to continue exploring in their own way.",
+      "preschoolExample": "Children plan a pretend cafe. The adult supports accessible roles, introduces a writing or number tool when it serves the play and adapts as children's ideas develop."
+    },
+    {
+      "id": 5,
+      "title": "Standard Five: Assessment, monitoring and interventions",
+      "elsInterpretation": "The adult notices and interprets children's participation, thinking and communication, chooses proportionate support and revisits its effect. Everyday evidence informs next steps without unnecessary testing or labelling.",
+      "lookFors": [
+        "Observation and listening distinguish what a child did or communicated from the adult's interpretation.",
+        "Interpretation considers context, strengths, language, communication and access needs.",
+        "Purposeful support is linked to an observed learning need, barrier or emerging understanding.",
+        "The adult revisits responses, adjusts support and uses appropriate records or follow-up evidence when available."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "The sample does not reveal enough of the observation, interpretation, response and review process to judge. A support decision may have occurred before the visit or its effect may not yet be visible. Record the evidence gap and a follow-up question. Missing records or an unobserved intervention alone do not demonstrate weak assessment.",
+          "evidenceExample": "Adapted materials are offered, but the brief visit gives no evidence of the observation informing them, their intended purpose or the child's response."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "The adult disregards clear evidence of difficulty or exclusion, makes consequential unsupported judgements, or persists with inappropriate support despite adverse responses. Assessment demands or interpretations substantially misrepresent the child's communication or understanding, restricting meaningful access or causing avoidable distress. Record the specific practice and impact; do not infer a diagnosis or treat difference as deficit.",
+          "evidenceExample": "The adult treats home-language use as proof of not understanding and removes a child from shared problem-solving despite gestures showing relevant ideas."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "The adult notices some relevant cues and offers generally appropriate support, but interpretation, response or review is inconsistent. Adjustments may be generic, delayed or insufficiently linked to the observed need. Children receive some help, but its usefulness is not checked when an opportunity arises. Identify the missing link rather than requiring more paperwork or formal testing.",
+          "evidenceExample": "After noticing difficulty with a joining tool, the adult offers another tool but does not check whether it enables the child to continue building."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "The adult notices specific evidence, considers its meaning in context and chooses a proportionate response. Support builds on strengths and addresses an observed need without unnecessary labelling or removal from play. Its effect is checked when possible and support adjusted, or a sensible next check identified. Relevant records and follow-up evidence inform next steps where available; progress claims stay within the evidence.",
+          "evidenceExample": "The adult notices repeated difficulty joining pieces, models a grip and watches the next attempt; adapted pieces then help the child continue independently."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "The adult interprets subtle or conflicting evidence thoughtfully, checking assumptions through accessible opportunities rather than premature conclusions. Targeted support is precise, minimally intrusive and responsive to agency. Its effect is revisited and support refined or withdrawn appropriately. Available evidence informs purposeful next steps and shows improved access, participation or understanding; distinction rests on assessment quality, not record volume or unverified long-term gains.",
+          "evidenceExample": "When a child avoids group storytelling, the adult checks understanding through puppets, notices confident responses, adjusts participation options and revisits whether the child can contribute comfortably."
+        }
+      ],
+      "evidencePrompts": [
+        "What exactly did the child do or communicate, and which interpretations remain uncertain?",
+        "What support followed, and why was it appropriate to this child and context?",
+        "What response was observed, or what follow-up will check whether the support helps?"
+      ],
+      "toddlerExample": "A toddler repeatedly abandons a posting toy. The adult notices an awkward opening, changes the toy's position and watches the next attempt before deciding whether further support is needed.",
+      "preschoolExample": "A child contributes little to a group story. Pictures, puppets or home-language resources help the adult check understanding and adapt participation, then review the child's response."
+    },
+    {
+      "id": 6,
+      "title": "Standard Six: Student welfare and classroom management",
+      "elsInterpretation": "Children feel safe, known and included. Adults protect dignity, respond to emotions and support growing independence through predictable, flexible routines.",
+      "lookFors": [
+        "Warm, respectful interactions and active supervision throughout play, care and transitions.",
+        "Co-regulation, positive guidance and reasonable adjustments rather than shame, threats or forced compliance.",
+        "Accessible routines and choices that support participation, autonomy and safe independence.",
+        "Prompt, appropriate responses to distress, risk and safeguarding concerns within the adult's role."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "There is not enough relevant evidence to judge this standard. Record which routines or interactions were seen and what further evidence is needed. Do not treat an uneventful short visit as proof that all welfare procedures are secure, or use this option to avoid recording a concern that was observed.",
+          "evidenceExample": "The observer arrives as the session ends; too little interaction or supervision is seen to judge. A further observation is needed."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "Observed practice presents a serious risk to children's safety, dignity or emotional security, or basic supervision and respectful guidance are substantially absent. A single serious incident is sufficient to require immediate action; repetition or evidence of actual harm is not required. Examples include humiliating responses, unsafe handling, ignoring significant distress or inadequate supervision. Follow the school's safeguarding procedures immediately, without waiting for a rating discussion.",
+          "evidenceExample": "An adult humiliates a distressed child rather than responding safely and supportively. The observer records the words and actions and reports the concern promptly."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "Relationships are generally caring and basic routines are present, but guidance, supervision arrangements or support for regulation and participation are inconsistent. Some children wait unnecessarily, receive repeated corrections or struggle to access routines without useful support. The evidence indicates a specific improvement need rather than a serious safety or dignity failure; any such failure must be escalated separately.",
+          "evidenceExample": "A long transition leads to repeated corrections. Visual cues and individual support are offered only after several children become distressed or disengaged."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "The adult maintains respectful relationships, active supervision and predictable, developmentally appropriate routines. They notice distress, offer calm co-regulation and adapt guidance to individual communication and support needs. Children can make appropriate choices, seek help and practise independence. Transitions and boundaries protect safety without expecting silence, immobility or identical behaviour from every child.",
+          "evidenceExample": "The adult prepares children for a transition, supports one child with a visual cue and offers calm reassurance while others move safely to the next activity."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Secure, inclusive practice is sustained across the available evidence. The adult anticipates barriers, adjusts routines sensitively and skilfully helps children develop their own regulation, communication and problem-solving strategies. Children increasingly use familiar supports, seek help and care for one another in developmentally appropriate ways. This judgement rests on the quality of support and its effect, not a perfectly quiet group.",
+          "evidenceExample": "Across play and a difficult transition, the adult's timely adaptations help children communicate needs, recover from distress and rejoin at their own pace without exclusion or shame."
+        }
+      ],
+      "evidencePrompts": [
+        "What did the adult do when a child needed reassurance, a boundary or help to participate, and how did the child respond?",
+        "How were supervision, transitions, dignity and individual access maintained?",
+        "What is directly observed, and which welfare procedures need separate verification?"
+      ],
+      "toddlerExample": "An adult names an emotion, stays close and offers a familiar object or simple choice, allowing time to settle rather than demanding immediate compliance.",
+      "preschoolExample": "An adult supports children to explain a conflict using words, gesture or pictures, agree a safe next step and return to play."
+    },
+    {
+      "id": 7,
+      "title": "Standard Seven: Professionalism",
+      "elsInterpretation": "The adult acts ethically, reflects on practice and works constructively with colleagues and families within agreed responsibilities. Evidence beyond the observation is often needed.",
+      "lookFors": [
+        "Respectful, confidential and ethical communication about children, families and colleagues.",
+        "Preparedness, appropriate use of resources and reliable fulfilment of agreed role responsibilities.",
+        "Constructive collaboration, clear adult roles and openness to feedback.",
+        "Reflection and professional learning that lead to a specific, evidenced improvement in practice."
+      ],
+      "ratings": [
+        {
+          "value": 0,
+          "label": "Not Observed",
+          "descriptor": "The available evidence is too limited to judge professionalism fairly. A short classroom visit may reveal collaboration or preparedness but not communication with families, reliability over time or responses to feedback. Record the aspects seen and arrange appropriate follow-up evidence. Absence of an opportunity to demonstrate a responsibility is not evidence of poor professionalism.",
+          "evidenceExample": "The observer sees a prepared activity, but has no evidence of agreed responsibilities, collaborative work or professional reflection beyond this short visit."
+        },
+        {
+          "value": 1,
+          "label": "Critical Concern",
+          "descriptor": "Specific, substantiated evidence shows a serious breach of professional responsibility or conduct, such as a significant confidentiality breach, discriminatory treatment or failure to act on a safeguarding concern. Do not infer this rating from personality, hearsay or disagreement alone. Record facts and follow the relevant safeguarding or management process; the rubric does not determine disciplinary outcomes.",
+          "evidenceExample": "A serious confidentiality breach is directly observed and recorded factually. The concern is referred through the school's agreed process rather than left only in observation feedback."
+        },
+        {
+          "value": 2,
+          "label": "Has Areas to Develop",
+          "descriptor": "Professional conduct is broadly respectful, but evidence identifies inconsistent preparation, communication, collaboration or fulfilment of an agreed responsibility. Reflection may describe events without identifying an actionable change, or agreed feedback is not yet reliably translated into practice. Specify the responsibility, evidence and support needed. Do not judge commitment through optional social attendance, personal style or unpaid extra work.",
+          "evidenceExample": "Unclear agreed roles leave two adults duplicating an activity while another group waits; the post-observation discussion identifies a need for joint preparation and clearer communication."
+        },
+        {
+          "value": 3,
+          "label": "Performing Well",
+          "descriptor": "Available evidence shows respectful, ethical conduct, appropriate preparation and constructive collaboration. The adult fulfils evidenced role responsibilities, protects confidentiality, seeks or responds to relevant feedback and identifies practical next steps. Communication with families and colleagues is clear and appropriate where there is evidence to assess it. They understand when to seek guidance and act within their role.",
+          "evidenceExample": "Adults share clear roles, discuss a child's needs privately and use feedback to agree a specific adjustment and review date."
+        },
+        {
+          "value": 4,
+          "label": "Outstanding",
+          "descriptor": "Evidence across relevant interactions and follow-up demonstrates consistently strong professional judgement and reflection that improves practice. The adult evaluates the impact of changes, seeks appropriate perspectives and contributes constructively to shared learning within their role. Their collaboration strengthens continuity for children and colleagues. This is not awarded for popularity, long working hours or responsibilities the adult has not had an opportunity to demonstrate.",
+          "evidenceExample": "A follow-up discussion and records show how feedback led to an agreed change, how its effect on children was reviewed and how useful learning was shared with colleagues."
+        }
+      ],
+      "evidencePrompts": [
+        "Which professional responsibilities are evidenced, by what source and over what period?",
+        "What feedback or reflection led to a change, and what evidence shows its effect?",
+        "Does the adult have the role, resources and opportunity to demonstrate the expectation?"
+      ],
+      "toddlerExample": "The adult shares a relevant care or communication observation privately with the responsible colleague and agrees how the child's routine will remain consistent.",
+      "preschoolExample": "The adult and colleague review children's responses to an investigation and agree a better question or resource for the next session."
+    }
+  ],
+  "internationalContext": "The rubric is a proposed local synthesis informed by early-years principles from South Africa, the United States, England and Aotearoa New Zealand. These frameworks have different purposes and contexts. None defines or validates the five employee-performance ratings used here."
+}
